@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Clube Do GTA</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/login.css">
+	</head>
+	<body>
+		<div class="clube">
+			<h1>Clube Do GTA</h1>
+			<footer class="botao">
+				<div class="float-right">
+					<button type="submit" class="btn btn-primary">Entrar</button>
+				</div>
+				<div class="float-left">
+					<button class="btn btn-secondary" data-toggle="modal" data-target="#NovoUsuario">Cadastrar</button>
+				</div>
+			</footer>
+		</div>
+
+		<div class="modal" tabindex="-1" role="dialog" id="NovoUsuario">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Novo usuario</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form action="cadastro.php" method="POST">
+						<div class="modal-body">
+								<div class="row">
+										<div class="form-group col-sm-12 col-xs-12">
+											<label>Codigo:</label>
+											<input type="number" name="codigo" id="codigo" class="form-control" readonly="readonly" <?php
+											echo'value="'.buscar_codigo('cadastros').'"';
+											?>/>
+										</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-sm-12 col-xs-12">
+										<label>Nome completo:</label>
+										<input type="text" name="nome" id="nome" class="form-control" required="required"/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col-sm-6 col-xs-12">
+										<label>Senha:</label>
+										<input type="password" name="cad_senha" id="senha" class="form-control password" required="required"/>
+									</div>
+									<div class="form-group col-sm-6 col-xs-12">
+										<label>Confirmacao de senha:</label>
+										<input type="password" name="cad_senha" id="conf_senha" class="form-control password" required="required"/>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="form-group col-sm-12 col-xs-12">
+										<label>Email:</label>
+										<input type="email" name="cad_email" id="cadas_email" class="form-control email" required="required"/>
+									</div>
+								</div>
+						</div>
+						<div class="modal-footer">
+							<button type="reset" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+							<button type="submit" class="btn btn-primary">Salvar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

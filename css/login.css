@@ -1,0 +1,47 @@
+.clube{
+	/*margin-left: 150px;*/
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 200px;
+	margin-right:200px;
+}
+
+h1{
+	font-size: 150px;
+	color:white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-family:Comic Sans;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+
+body{
+	min-height: 50vh;
+	background-color: #CCC;
+	background-image: url("../Os_7_Monstrinhos.png");
+	background-size: 100%;
+}
+
+.login-form {
+	margin-top: 50vh;
+	padding: 20px 30px;
+	background-color: rgba(0, 0, 0, .9);
+	
+	color: #FFF;
+	
+	transform: translateY(-50%);
+}
+
+.login-form h1{
+	margin:0 0 5px;
+}
+
+.login-form h2{
+	margin:0 0 30px;
+	font-size:1em;
+}
+
