@@ -8,9 +8,9 @@
 		<link rel="stylesheet" href="css/login.css">
 	</head>
 	<body>
-		<div class="login-form col-xs-10 offset-xs-1 col-sm-6 offset-sm-3 col-md-4 offset-md-4">
+		<div class="login-form col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1">
 			<div class="clube">
-				<h1>Clube Do GTA</h1>
+				<h1 class="col-xs-5 offset-xs-1">Clube Do GTA</h1>
 				<footer class="botao">
 					<div class="float-right">
 						<button class="btn btn-secondary" data-toggle="modal" data-target="#Entrar">Entrar</button>
@@ -20,7 +20,7 @@
 					</div>
 				</footer>
 			</div>
-		</div>
+		
 
 		<div class="modal" tabindex="-1" role="dialog" id="NovoUsuario">
 			<div class="modal-dialog" role="document">

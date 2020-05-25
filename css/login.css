@@ -2,12 +2,14 @@
 	/*margin-left: 150px;*/
 	text-align: center;
 	margin-top: 15%;
-	margin-left: 200px;
-	margin-right:200px;
+	/*margin-left: 200px;
+	margin-right:200px;*/
+	
 }
 
 h1{
-	font-size: 150px;
+	padding:auto;
+	font-size: 140px;
 	color:white;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: black;
@@ -28,8 +30,7 @@ body{
 
 .login-form {
 	margin-top: 50vh;
-	padding: 20px 30px;
-	background-color: rgba(0, 0, 0, .9);
+	
 	
 	color: #FFF;
 	
@@ -48,3 +49,4 @@ body{
 	background-color: blue;
 	color: lightyellow;
 }	
+
