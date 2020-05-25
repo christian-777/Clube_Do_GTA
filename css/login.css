@@ -44,4 +44,7 @@ body{
 	margin:0 0 30px;
 	font-size:1em;
 }
-
+.modal-header{
+	background-color: blue;
+	color: lightyellow;
+}	
