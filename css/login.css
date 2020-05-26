@@ -23,7 +23,6 @@
 
 body{
 	min-height: 50vh;
-	background-color: #CCC;
 	background-image: url("../Os_7_Monstrinhos.png");
 	background-size: 100%;
 }
@@ -50,3 +49,17 @@ body{
 	color: lightyellow;
 }	
 
+.cab{
+	background-color:lightgray;
+	/*border-style:dashed;*/
+	border-color:white;
+	border-width:1px;
+	border-collapse:collapse;
+	border-radius:10px;
+}
+td{
+	border-right-style:solid;
+	border-left-color:white;
+	border-right-color:white;
+	border-width:1px;
+}

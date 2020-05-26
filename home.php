@@ -6,9 +6,12 @@
 		<title>Clube Do GTA</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/login.css">
+		
 	</head>
 	<body>
-		
+		<?php
+			include "inc/cabecalho.inc";
+		?>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/validaform.min.js"></script>
