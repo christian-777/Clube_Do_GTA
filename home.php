@@ -8,9 +8,11 @@
 		<link rel="stylesheet" href="css/login.css">
 		
 	</head>
-	<body>
+	<body class="relative">
 		<?php
 			include "inc/cabecalho.inc";
+			include "inc/home.inc";
+			include "inc/rodape.inc";
 		?>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>

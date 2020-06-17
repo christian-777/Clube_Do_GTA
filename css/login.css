@@ -18,20 +18,22 @@
 	border-color: black;
 	border-width: 1px;
 	background-color: rgba(0, 0, 0, .5);
+	
 }
 
 
-body{
+.body{
 	min-height: 50vh;
 	background-image: url("../Os_7_Monstrinhos.png");
 	background-size: 100%;
 }
 
+a:link, a:visited, a:hover, a:active{
+		text-decoration: none;
+}
+
 .login-form {
-	margin-top: 50vh;
-	
-	
-	color: #FFF;
+	margin-top: 50vh; 
 	
 	transform: translateY(-50%);
 }
@@ -62,4 +64,24 @@ td{
 	border-left-color:white;
 	border-right-color:white;
 	border-width:1px;
+}
+.mx-auto{
+	text-align:center;
+	font-size:60px;
+}
+
+.nav-tabs{
+	text-align:center;
+}
+
+.titulo{
+	margin-top:90px;
+	font-size:80px;
+	margin-left:350px;
+	margin-right:300px;
+}
+.rodape{
+	text-align:center;
+	margin-top:90px;
+	bottom:0;
 }

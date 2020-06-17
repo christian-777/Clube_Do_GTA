@@ -7,20 +7,12 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/login.css">
 	</head>
-	<body>
+	<body class="body">
 		<div class="login-form col-xs-10 offset-xs-1 col-sm-5 offset-sm-1 col-md-10 offset-md-1">
 			<div class="clube">
-				<h1 class="h1 col-xs-5 offset-xs-1">Clube Do GTA</h1>
-				<footer class="botao">
-					<div class="float-right">
-						<button class="btn btn-secondary" data-toggle="modal" data-target="#Entrar">Entrar</button>
-					</div>
-					<div class="float-left">
-						<button class="btn btn-secondary" data-toggle="modal" data-target="#NovoUsuario">Cadastrar</button>
-					</div>
-				</footer>
+				<a href="home.php" data-toggle="modal" data-target="#"><h1 class="h1 col-xs-5 offset-xs-1">Clube Do GTA</h1></a>
 			</div>
-		
+		</div>
 
 		<div class="modal" tabindex="-1" role="dialog" id="NovoUsuario">
 			<div class="modal-dialog" role="document">
